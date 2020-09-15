@@ -1,0 +1,38 @@
+/* States: 
+    a:link;
+    a:visited;
+    a:hover;
+    a:active: */
+.default-link {
+    color:  #b76f32;
+}
+
+.default-link:link {
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.default-link:visited {
+}
+
+.default-link:hover {
+    color: plum;
+    text-decoration: underline;
+}
+
+.default-link:active {
+    color: springgreen;
+    text-decoration: underline;
+}
+
+/* Styling a button */
+.button-link {
+    background: #4aff8c;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    padding: 10px 15px;
+}
+
+.button-link:hover {
+    background: #b7ff31;
+}
