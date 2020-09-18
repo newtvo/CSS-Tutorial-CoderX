@@ -14,15 +14,20 @@ body {
 .child-1 {
     background-color: plum;
     flex-basis: 150px;
+    flex-grow: 1;
 }
 
 .child-2 {
     background-color: powderblue;
     flex-basis: 200px;
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
-.child-3 {
+.container-swap .child-1 {
+    order: 1;
+    flex-grow: 1;
+}
+/* .child-3 {
     background-color: salmon;
     flex-basis: 150px;
-}
+} */
