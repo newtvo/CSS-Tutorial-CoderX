@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 .container {
     display: flex;
     flex-direction: row;
@@ -16,6 +19,7 @@
 .child-2 {
     background-color: powderblue;
     flex-basis: 200px;
+    flex-grow: 2;
 }
 
 .child-3 {
