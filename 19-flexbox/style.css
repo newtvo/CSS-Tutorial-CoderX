@@ -1,4 +1,8 @@
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    background-color: #DDD;
+    justify-content: center;
+    height: 250px;
+    align-items: stretch;
 }
